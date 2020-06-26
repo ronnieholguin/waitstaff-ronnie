@@ -1,0 +1,59 @@
+fieldset {
+  width: 310px;
+  text-align: right;
+}
+body{
+  background: url('dark.jpg') ;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.wrapper{
+  
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  color: antiquewhite;
+}
+
+section{
+  
+  border-radius: 5px;
+  background-color: rgba(245, 245, 220, 0.276) ;
+  box-shadow:1px 1px 5px 5px rgb(250, 235, 215) inset;
+  box-shadow:1px 2px 3px 3px rgb(0, 0, 0) ;
+  flex-direction: column;
+  border-style: solid;
+  margin: 10px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+fieldset{
+  
+align-self: center;
+justify-content: center;
+
+}
+header{
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+h1{
+  font-size: 4rem;
+  text-align: center;
+  color: antiquewhite;
+  /* flex-direction: column;
+  align-self: center;
+  justify-content: center; */
+  
+}
+
+h2 {
+  margin-top: 0;
+}
